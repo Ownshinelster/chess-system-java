@@ -13,12 +13,12 @@ public class Position {
 	}
 
 
-	public int getTow() {
+	public int getRow() {
 		return row;
 	}
 
 
-	public void setTow(int row) {
+	public void setRow(int row) {
 		this.row = row;
 	}
 
@@ -37,5 +37,8 @@ public class Position {
 	public String toString() {
 		return row + ", " + column;
 	}
+
+
+	
 	
 }
